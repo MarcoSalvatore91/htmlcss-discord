@@ -63,6 +63,13 @@ li > a, .text-head > p, .text-head > h1, .btn-right > a{
     color: blue;
 }
 
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Content */
 
 /* Menu-nav */
@@ -119,7 +126,7 @@ li > a:hover {
     line-height: 30px;
 }
 
-.jumbotron > .texthead, h1 {
+.jumbotron > .texthead, .jumbotron h1 {
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -128,7 +135,7 @@ li > a:hover {
     font-size: 21px;
 }
 
-/* Main Isnformations */
+/* Main Informations */
 
 .btn-left, .btn-right{
     display: inline-block;
@@ -155,26 +162,97 @@ li > a:hover {
 
 /* Utilities-Main */
 
-.img-area-conv, .text-area-conv {
+.img-area-conv, .text-area-conv, #text-area-left {
     float: left;
-    min-height: 600px;
+    min-height: 500px;
     width: 50%;
 }
 
 .margin-main {
     height: 700px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
-
-/* Section Main */
-
 
 .text-area-conv {
     margin-top: 35px;
     padding-left: 200px;
 }
 
-.text-area-conv > p {
+.text-area-conv > p, #text-area-left > p {
     line-height: 30px;
     font-size: 22px;
 }
+
+.text-area-conv h1, .text-area-left h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+/* Section Main */
+
+/* Section Dove Trovarsi */
+
+#text-area-left {
+    margin-top: 35px;
+    padding-right: 200px;
+}
+
+/* Download */
+
+.contain {
+    height: 800px;
+    position: relative;
+    margin-top: 100px;
+}
+
+#head {
+    position: relative;
+    height: 20%;
+    text-align: center;
+}
+
+#head h1 {
+    display: inline-block;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#head p {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+#body {
+    position: relative;
+    height: 70%;
+    margin-bottom: 100px;
+}
+
+#body img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+#foot {
+    height: 20%;
+    text-align: center;
+}
+
+#text-download {
+    font-weight: 900;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#text-download a {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+}
+
+/* Footer */
+
+#
