@@ -202,6 +202,7 @@ li > a:hover {
     height: 800px;
     position: relative;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 #head {
@@ -255,4 +256,41 @@ li > a:hover {
 
 /* Footer */
 
-#
+footer {
+    background-color: rgb(35,39,42);
+}
+
+.top-footer {
+    padding-top: 100px;
+}
+
+#wd-40 {
+    float: left;
+    width: 40%;
+    height: 600px;
+}
+
+#wd-40 h1 {
+    font-size: 40px;
+}
+
+.wd-15 {
+    float: left;
+    width: 15%;
+    height: 600px;
+    padding-top: 6px;
+}
+
+ul {
+    line-height: 30px;
+    
+}
+
+li {
+    display: block;
+    text-align: left;
+}
+
+#bottom-footer {
+    height: 200px;
+}
