@@ -8,8 +8,32 @@
 
 /* Utilities */
 
+.head {
+    background-color: rgb(64,78,237);
+    height: 80px;
+}
+
 .conteiner {
     max-width: 1200px;
     margin: 0 auto;
-    background-color: rgb(64,78,237);
+}
+
+/* Content */
+
+.wd-20 {
+    float: left;
+    height: 80px;
+    width: 20%;
+    background-color: red;
+}
+
+.wd-60 {
+    float: left;
+    height: 80px;
+    width: 60%;
+    background-color: blue;
+}
+
+.jumbotron {
+    background-image: url();
 }
