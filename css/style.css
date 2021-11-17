@@ -107,7 +107,6 @@ li > a:hover {
     min-height: 500px;
     background-size: cover;
     position: relative;
-    margin-bottom: 300px;
 }
 
 .text-head {
@@ -162,7 +161,13 @@ li > a:hover {
     width: 50%;
 }
 
-/* Section Area Conversazioni */
+.margin-main {
+    height: 700px;
+    margin-top: 300px;
+}
+
+/* Section Main */
+
 
 .text-area-conv {
     margin-top: 35px;
