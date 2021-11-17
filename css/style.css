@@ -30,16 +30,38 @@ div, a {
     text-decoration: none;
 }
 
-li > a, .text-head > p, .text-head > h1{
+li > a, .text-head > p, .text-head > h1, .btn-right > a{
     color: white;
 }
 
 .btn-head {
     display: inline-block;
-    background-color: white;
-    border-radius: 10%;
+    line-height: 40px;
 }
 
+.btn-head > a {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.btn-head > a, .btn-left > a{
+    color: black;
+}
+
+.btn-left > a, .btn-right > a {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.btn-head > a:hover, .btn-left > a:hover {
+    color: blue;
+}
 /* Content */
 
 /* Menu-nav */
@@ -94,10 +116,31 @@ li {
 
 .jumbotron > .texthead, h1 {
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .text-head > p {
     font-size: 21px;
+}
+
+.btn-left, .btn-right{
+    display: inline-block;
+    margin: 20px 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.btn-left > a {
+    width: 200px;
+    background-color: white;
+}
+
+.btn-right > a {
+    width: 300px;
+    background-color: black;
+}
+
+.btn-right > a:hover {
+    color: red;
 }
 
