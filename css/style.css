@@ -183,7 +183,7 @@ li > a:hover {
     font-size: 22px;
 }
 
-.text-area-conv h1, .text-area-left h1{
+.text-area-conv h1, #text-area-left h1{
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -257,7 +257,7 @@ li > a:hover {
 /* Footer */
 
 footer {
-    background-color: rgb(35,39,42);
+    background-color: rgba(35,39,42);
 }
 
 .top-footer {
@@ -267,7 +267,7 @@ footer {
 #wd-40 {
     float: left;
     width: 40%;
-    height: 600px;
+    height: 400px;
 }
 
 #wd-40 h1 {
@@ -277,20 +277,49 @@ footer {
 .wd-15 {
     float: left;
     width: 15%;
-    height: 600px;
+    height: 400px;
     padding-top: 6px;
 }
 
-ul {
+.wd-15 ul {
     line-height: 30px;
     
 }
 
-li {
+.wd-15 li {
     display: block;
     text-align: left;
 }
 
+h1, .wd-15 li:first-child {
+    color: rgb(64,78,237);
+}
+
+hr {
+    color: rgb(64,78,237);
+}
+.wd-15 li {
+    color: white;
+}
+
 #bottom-footer {
+    margin-top: 20px;
     height: 200px;
+    position: relative;
+}
+
+#registrati {
+    line-height: 35px;
+}
+
+#registrati a {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(64,78,237);
 }
