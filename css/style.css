@@ -204,7 +204,7 @@ li > a:hover {
     margin-top: 35px;
     padding-right: 200px;
     float: left;
-    min-height: 500px;
+    height: 500px;
     width: 45%;
 }
 
@@ -353,4 +353,12 @@ hr {
     width: 90px;
     border-radius: 20px;
     background-color: rgb(64,78,237);
+}
+
+#icon {
+    margin-top: 20px;
+}
+
+#icon i {
+    margin-right: 15px;
 }
