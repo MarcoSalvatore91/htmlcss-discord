@@ -175,6 +175,7 @@ li > a:hover {
 .margin-main {
     height: 700px;
     margin-top: 200px;
+    padding: 200px 0;
 }
 
 .text-area-conv {
@@ -213,8 +214,9 @@ li > a:hover {
 .contain {
     height: 800px;
     position: relative;
-    margin-top: 100px;
-    margin-bottom: 150px;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    padding-top: 200px;
 }
 
 #head {
